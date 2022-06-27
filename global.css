@@ -4,12 +4,16 @@
     padding: 0px;
 }
 
+html{
+    background-color: #353b48;
+}
+
 ul{
     list-style-type: none; /* Deleting bulletpoints for link (tag <a>) in the list*/
 }
 
 nav{
-    background-color: #2f3640; /* Color taken from FLAT UI COLOR 2 */
+    background-color: #718093; /* Color taken from FLAT UI COLOR 2 */
 }
 
 #main-menu{
