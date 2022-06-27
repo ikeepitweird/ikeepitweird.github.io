@@ -32,66 +32,15 @@ nav #main-menu li:hover a{
     transition: all 0.3s ease; /* Make the animation looks smoother*/
 }
 
-main .container{
-    position: relative;
-    text-align: center;
-    margin-bottom: 5vh;
-    min-height: 400px;
-}
-main #the-image{
-    height: 60vh;
-    width: 100vw;
-    opacity: 0.2;
-    min-height: 400px;
-}
 
-main .centered, main .centered-vn{
-    font-size: 4rem;
-    font-family: Helvetica, Times, serif;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -110%);
-}
 
-main #sub-head{
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, 0%); 
-    font-size: 1.5rem; 
-    font-family: Helvetica, Times, serif;
-}
 
-main #my-post-button{
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, 80%); 
-    font-size: 1.5rem; 
-    font-family: Helvetica, Times, serif;
-    color: white;
-    margin-top: 1em;
-    margin-bottom: 5vh;
-    padding: 1em 1em;
-    text-decoration: none;
-    background-color: #2f3640;
-}
-
-main #button-return:hover a, main #my-post-button:hover{
-    background-color: #e84118; /* For changing the color of the link's background whenever the mouse is hovered through that block*/
-    transition: all 0.3s ease; /* Make the animation looks smoother*/
-}
-
-main #my-post-button a{
-    text-decoration: none;
-    color: white;
-}
 
 main .main-article h1{
     margin-bottom: 5vh; 
     margin-left:20vw; 
     margin-right: 20vw; 
+    color: white;
     font-size:3.5rem; 
     font-family: Helvetica, Times, serif;
 }
@@ -101,6 +50,7 @@ main .main-article p{
     margin-right: 20vw; 
     margin-bottom: 5vh; 
     font-size: 1.5rem; 
+    color: white;
     font-family: Helvetica, Times, serif; 
     text-align: justify;
 }
@@ -110,7 +60,7 @@ footer #line-break{
     margin-left: 20vw; 
     margin-right: 20vw; 
     margin-bottom: 2vh; 
-    background-color: brown; 
+    background-color: #c23616; 
     height: 0.25vh;
 }
 
@@ -139,25 +89,6 @@ footer #footer-line {
     nav #main-menu li a{
         display: block;
         font-size: 0.9rem;
-    }
-    main .centered{
-        font-size: 1.4rem;
-        transform: translate(-50%, -180%);
-    }
-    
-    main .centered-vn{
-        font-size: 1.4rem;
-        transform: translate(-50%, -180%);
-    }    
-
-    main #sub-head{
-        font-size: 0.9rem;
-        transform: translate(-50%, -70%);
-    }
-
-    main #my-post-button{
-        font-size: 0.9rem;
-        transform: translate(-50%, 80%);
     }
 
     main .main-article h1{
