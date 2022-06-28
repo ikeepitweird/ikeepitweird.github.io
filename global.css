@@ -4,8 +4,8 @@
     padding: 0px;
 }
 
-body{
-    background-color: #353b48;
+html{
+    background-color: #2f3640;
 }
 
 ul{
@@ -13,7 +13,7 @@ ul{
 }
 
 nav{
-    background-color: #718093; /* Color taken from FLAT UI COLOR 2 */
+    background-color: #57606f; /* Color taken from FLAT UI COLOR 2 */
 }
 
 #main-menu{
@@ -36,27 +36,45 @@ nav #main-menu li:hover a{
     transition: all 0.3s ease; /* Make the animation looks smoother*/
 }
 
-
-
-
-
-main .main-article h1{
-    margin-bottom: 5vh; 
-    margin-left:20vw; 
-    margin-right: 20vw; 
+main #title {
+    margin-top: 5vh;
+    text-align: center;
+    font-family: Helvetica, Times, serif;
     color: white;
-    font-size:3.5rem; 
+}
+main #post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 40px;
+    /* background-color: red; */
+}
+
+main #post-container .post-panel{
+    padding: 30px 40px;
+    border: 2px solid gray;
+    width: 60vw;
+    margin-bottom: 5vh;
+}
+
+main .post-panel a, main .post-panel p{
     font-family: Helvetica, Times, serif;
 }
 
-main .main-article p{
-    margin-left:20vw; 
-    margin-right: 20vw; 
-    margin-bottom: 5vh; 
-    font-size: 1.5rem; 
+main .post-panel a{
     color: white;
-    font-family: Helvetica, Times, serif; 
-    text-align: justify;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+main .post-panel p{
+    color: white;
+}
+
+main .post-panel a:hover{
+    color: gray;
 }
 
 footer #line-break{
@@ -64,7 +82,7 @@ footer #line-break{
     margin-left: 20vw; 
     margin-right: 20vw; 
     margin-bottom: 2vh; 
-    background-color: #c23616; 
+    background-color: brown; 
     height: 0.25vh;
 }
 
@@ -82,6 +100,7 @@ footer #image-icon img{
 footer #footer-line {
     text-align: center;
     margin-bottom: 2vh;
+    color: white;
 }
 
 @media screen and (max-width: 900px){
